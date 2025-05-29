@@ -1,0 +1,14 @@
+title: "Radios"
+author: "Gean Ramos"
+email: "radios@geanramos.com.br"
+description: "descricao em breve"
+permalink: ':title.html'
+image: "https://d15k2d11r6t6rl.cloudfront.net/pub/bfra/mc32312m/m17/9r2/5eg/data-cta.png" #https://picsum.photos/600/363
+logo: "https://geanramos.com.br/img/avatar.png"
+baseurl: "/radio"
+url: "//dev.geanramos.com.br"
+theme: minima
+markdown: kramdown
+paginate: 10
+
+

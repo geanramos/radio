@@ -6,11 +6,11 @@
 <meta name="msapplication-navbutton-color" content="#0000ff"/>
 <meta name="theme-color" content="#0000ff"/>
 
-<title>{% if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+<title>{{ page.title }} - {{ page.frequencia }}</title>
 <meta name="description" content="{{ site.description }}" />
 
 <!-- sample fb meta -->
-<meta property="og:title" content="{% if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }}{% endif %}" />
+<meta property="og:title" content="{{ page.title }} - {{ page.frequencia }}" />
 <meta property="og:type" content="website" />{% if page.url %}
 <meta property="og:url" content="{{ site.url }}{{ site.baseurl }}{{ post.url }}" />  {% endif %}
 <meta property="og:image" content="{{ page.image }}" />
@@ -20,7 +20,7 @@
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:site" content="@geanramos" />
 <meta name="twitter:creator" content="@geanramos" />
-<meta name="twitter:title" content="{% if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }}{% endif %}" />
+<meta name="twitter:title" content="{{ page.title }} - {{ page.frequencia }}" />
 <meta name="twitter:description" content="{{ site.description }}" />
 <meta name="twitter:image" content="{{ page.image }}" />
 

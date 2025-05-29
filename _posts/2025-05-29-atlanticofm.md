@@ -7,6 +7,7 @@ logo: "https://geanramos.com.br/radio/img/logo-atlanticofm.png"
 frequencia: "105.1"
 cidade: "Castanhal-Pa"
 source: "https://live.hunter.fm/rock_normal?v=2"
+ouvintes: "29"
 ---
 <span>{{ page.title }}</span>
 <h3>{{ page.frequencia }}</h3>

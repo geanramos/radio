@@ -35,10 +35,10 @@ location.reload();
 });
 
 function getOuvintes() {
-$.getJSON("https://geanramos.42web.io/radio/brascast.php", function (data) {
+$.getJSON("https://u1m.com.br/online.php", function (data) {
 // Obtém o número de ouvintes conectados diretamente
 var ouvintes_conectados = data.ouvintes_conectados;
-var ouvintes_conectados = ouvintes_conectados * 1;
+var ouvintes_conectados = ouvintes_conectados * {{ page.ouvintes }};
 console.log("ouvintes_conectados", ouvintes_conectados);
 // Verifica se há ouvintes conectados e atualiza o DOM
 if (ouvintes_conectados > 0) {

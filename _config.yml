@@ -3,10 +3,10 @@ author: "Gean Ramos"
 email: "radios@geanramos.com.br"
 description: "descricao em breve"
 permalink: ':title.html'
-image: "https://d15k2d11r6t6rl.cloudfront.net/pub/bfra/mc32312m/m17/9r2/5eg/data-cta.png" #https://picsum.photos/600/363
-logo: "https://geanramos.com.br/img/avatar.png"
+image: "https://picsum.photos/600/363" #https://picsum.photos/600/363
+logo: "https://avatars.githubusercontent.com/u/6352393?v=4"
 baseurl: "/radio"
-url: "https://dev.geanramos.com.br"
+url: "https://dev.gean.me"
 theme: minima
 markdown: kramdown
 paginate: 10

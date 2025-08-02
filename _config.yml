@@ -5,7 +5,7 @@ description: "descricao em breve"
 permalink: ':title.html'
 image: "https://picsum.photos/600/363" #https://picsum.photos/600/363
 logo: "https://avatars.githubusercontent.com/u/6352393?v=4"
-baseurl: "/radio"
+baseurl: "/"
 url: "https://radio.50x.com.br"
 theme: minima
 markdown: kramdown
